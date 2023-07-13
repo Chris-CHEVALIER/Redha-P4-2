@@ -1,0 +1,146 @@
+.header_img img {
+  width: 100%;
+  height: 245px;
+  object-fit: cover;
+}
+
+.main_content h1 {
+  font-family: Shrikhand;
+  padding-top: 5px;
+  inline-size: 100%;
+  font-size: 1.8rem;
+}
+
+.main_content {
+  flex-direction: column;
+}
+
+.category_title {
+  display: flex;
+  border-bottom: #99e2d0 solid;
+  width: 45px;
+  height: 38px;
+}
+
+.body {
+  position: fixed;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 0 15px;
+}
+
+.category-container {
+  margin: 10px 15px 0 15px;
+}
+
+.plat-price {
+  font-weight: bold;
+  margin-left: auto;
+}
+
+.plats {
+  display: flex;
+  flex-direction: column;
+}
+
+.plat {
+  border-radius: 17px;
+  width: 100%;
+  height: 61px;
+  box-shadow: 0 5px 16px #0000002e;
+  margin-top: 10px;
+  display: flex;
+  min-width: 0;
+}
+
+.plat-title {
+  font-weight: bold;
+}
+
+.plat-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.plats-title {
+  display: flex;
+  border-bottom: #99e2d0 solid;
+  width: 45px;
+  height: 38px;
+  margin-top: 20px;
+}
+
+.plat-price-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.order_button {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  width: 154px;
+
+  padding: 0.72rem 1.2rem;
+  border-radius: 100px;
+  color: #fff;
+  background-image: linear-gradient(
+    0deg,
+    rgba(147, 86, 220, 0.9),
+    rgba(255, 121, 218, 0.9)
+  );
+  cursor: pointer;
+  box-shadow: 0.25rem 0.25rem 10px rgba(0, 0, 0, 0.25);
+  align-self: center;
+  padding: 15px;
+  margin: 40px auto 40px auto;
+}
+
+.section--footer {
+  color: #353535;
+}
+
+.logo__footer img {
+  width: 50%;
+}
+
+.plat-icon {
+  background-color: #99e2d0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 0px;
+  font-size: 20px;
+  border-radius: 0 15px 15px 0;
+  margin-left: 10px;
+  transition: width 400ms;
+}
+
+.plat-icon > i {
+  visibility: hidden;
+  transition: visibility 100ms;
+}
+
+.plat:hover > .plat-icon {
+  width: 59px;
+}
+
+.plat:hover > .plat-icon > i {
+  visibility: visible;
+}
+
+.plat-subtitle {
+  font-size: 14px;
+}
+
+.omf_black {
+  color: black;
+}
